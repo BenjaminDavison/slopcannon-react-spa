@@ -10,3 +10,4 @@ Build image (requires `pack` and Docker):
     pack build slopcannon-react-spa --builder paketobuildpacks/builder-jammy-base
 
 Settings come from `project.toml`. Run: `docker run -p 8080:8080 slopcannon-react-spa`
+.
