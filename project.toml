@@ -2,7 +2,7 @@
 schema-version = "0.2"
 
 [[io.buildpacks.group]]
-uri = "docker://gcr.io/paketo-buildpacks/nodejs"
+uri = "docker://docker.io/paketobuildpacks/nodejs"
 
 [[io.buildpacks.build.env]]
 name = "BP_NODE_RUN_SCRIPTS"
