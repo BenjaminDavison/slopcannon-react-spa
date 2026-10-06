@@ -6,15 +6,7 @@ metadata:
   description: Vite + React single page app built with Cloud Native Buildpacks (Paketo Node.js + nginx).
   annotations:
     github.com/project-slug: BenjaminDavison/slopcannon-react-spa
-    backstage.io/kubernetes-label-selector: app.kubernetes.io/name=slopcannon-react-spa
-  links:
-    - url: http://slopcannon-react-spa.localhost:8088
-      title: Live (slopcloud)
-      icon: web
-  tags: [react, vite, buildpacks]
 spec:
-  type: website
+  type: webapp
   lifecycle: experimental
   owner: group:default/guests
-  dependsOn:
-    - resource:default/slopcannon-react-spa
