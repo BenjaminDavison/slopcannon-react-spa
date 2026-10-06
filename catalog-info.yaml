@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: slopcannon-react-spa
+  name: foo-bar
   title: slopcannon React SPA
   description: Vite + React single page app built with Cloud Native Buildpacks (Paketo Node.js + nginx).
   annotations:
