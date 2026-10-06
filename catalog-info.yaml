@@ -10,3 +10,5 @@ spec:
   type: webapp
   lifecycle: experimental
   owner: group:default/guests
+  dependsOn:
+    - resource:default/slopcannon-react-spa  
